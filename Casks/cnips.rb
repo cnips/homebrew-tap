@@ -6,25 +6,25 @@ cask "cnips" do
     end
   end
 
-  version "1.2.1"
+  version "1.3.0"
 
   on_macos do
     on_arm do
-      sha256 "3e835e53ef2ef133bb765482bb2bbad7a43c2262df5f8df79c996c1b14c8a7e7"
+      sha256 "d85863d9ee0c9a281eb7903b328e8afa744c3c4be8d267f0cf92796d3ba3f4e0"
       url "https://github.com/cnips/cnips-cli/releases/download/v#{version}/cnips_v#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6215266faff3c416fbaf4c22d085d1748813e3692b26eaebfe1a0a9f5eeb67c3"
+      sha256 "e07cf1ab01ca88723ea854fb7eee0809aa4808ab42d35287341701b6ebfddd0d"
       url "https://github.com/cnips/cnips-cli/releases/download/v#{version}/cnips_v#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "327a9a188af9b71e5715e72291b211a58c779b3d33d0daf36bd7a00292ea1e59"
+      sha256 "d233b4f1323d316164857907c145d64d48b25399e358593b4af7b324b017f21a"
       url "https://github.com/cnips/cnips-cli/releases/download/v#{version}/cnips_v#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9237b903098bae91c007fc1fa3f0183db8c359e3307ae846ed26076deaad2a23"
+      sha256 "3aae37a1968c645840ba39a1b995c672d39b4607861e0a10e2df1d3246cc5c33"
       url "https://github.com/cnips/cnips-cli/releases/download/v#{version}/cnips_v#{version}_linux_amd64.tar.gz"
     end
   end
